@@ -1,5 +1,6 @@
 body {
   font-size: 18px;
+  font-family: Helvetica;
   background-color: black;
   margin-left: 60px;
   margin-right: 60px;
@@ -81,4 +82,71 @@ body {
   font-family: Helvetica;
   color: white;
 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  padding-right: 1rem;
+
+
+}
+.products img {
+  display: inline-block;
+  height: 8rem;
+  width: 30%;
+  background-color: white;
+  border: 4px solid black;
+  padding: 2rem 3rem 2rem 3rem;
+  align-items: center;
+
+
+}
+.pen h3 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+  margin-right: 6.5rem;
+}
+
+.watch h3 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  margin-right: 6.5rem;
+}
+
+.glasses h3 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.5rem 0.5rem 3.5rem;
+  margin-right: 6.5rem;
+}
+.contact {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.contact h3 {
+  background-color: black;
+  color: white;
+}
+
+.bottom {
+  background-color: black;
+  margin-top: 4rem;
+  height: 5rem;
+}
+.bottom h3 {
+  color: white;
+  padding-left: 8rem;
 }
